@@ -10,6 +10,7 @@ public class durum {
 				if (a[i] * a[i] == b[j]) {
 
 					durum = durum + 1;
+					b[j]=-1;
 					break;
 				}
 
