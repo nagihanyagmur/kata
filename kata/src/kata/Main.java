@@ -15,6 +15,7 @@ public class Main {
 		System.out.println(hal.HighAndLow("1 2 -3 4 5"));
 		System.out.println(hal.HighAndLow("1 9 3 4 -5"));
 		
+		
 		ConvertNumberString cns=new ConvertNumberString();
 		System.out.println(cns.numberToString(123));
 		System.out.println(cns.numberToString(999));
@@ -35,6 +36,12 @@ public class Main {
 		System.out.println(sq.isSquare(4));
 		System.out.println(sq.isSquare(25));
 		System.out.println(sq.isSquare(26));
+		
+		Same sm=new Same();
+		String a1[] = {"hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"};
+		String a2[] = {"cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"};
+		System.out.println(sm.mxdiflg( a1, a2));
+		
 		
 		
 		
